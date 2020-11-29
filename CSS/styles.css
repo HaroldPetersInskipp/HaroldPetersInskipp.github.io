@@ -1,0 +1,148 @@
+/*! styles.css V0.1 by Inskipp @ kalodrol2000@yahoo.com | 11/28/2020 | MIT License | https://github.com/HaroldPetersInskipp/Workshop/blob/main/CSS/styles.css */
+
+@charset "UTF-8";
+
+/* Style the 1rd header */
+h1 {
+	color:#111;
+	font-size:48px;
+	text-align:center;
+	background-color:#403f3f;
+	margin:0;
+    padding:0;
+}
+
+/* Style the 3rd header */
+h3 {
+	border-radius: 5px;
+	text-align: center;
+}
+
+/* Style the 5th header  */
+h5 {
+	padding-left: 10%;
+
+}
+
+/* Style the 6th header  */
+h6 {
+	padding-left: 10%;
+
+}
+
+/* Style the body */
+body {
+	background-color:#232323;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+}
+
+/* Style the paragraphes */
+p {
+	margin-bottom: 0;
+	text-align: center;
+	color: white;
+	font-family: "Lucida Console";
+}
+
+/* Style the Images Section */
+.images {
+	text-align: center;
+}
+
+/* Style the games Section */
+.games {
+	text-align: center;
+}
+
+/* Style the links Section */
+.links {
+	display: block;
+	text-align: center;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+/* Style the audio Section */
+.audio {
+	text-align: center;
+}
+
+/* Style the video Section */
+.video {
+	text-align: center;
+}
+
+/* Style the header */
+.header {
+	background-color: #0f0f0f;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+	overflow: hidden;
+	background-color: #403f3f;
+    margin:0;
+    padding:0;
+}
+
+/* Style the topnav links */
+.topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+	background-color: gray;
+	color: black;
+}
+
+/* Style the footer */
+/*.footer {
+	overflow: hidden;
+	background-color: #403f3f;
+    margin:0;
+    padding:0;
+}*/
+
+/* Style the footer links */
+/*.footer a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 7px 16px;
+	text-decoration: none;
+}*/
+
+.nav {
+	background-color: 403f3f; 
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.nav li {
+	display: inline-block;
+	font-size: 18px;
+	padding: 20px;
+}
+
+.nav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 7px 16px;
+	text-decoration: none;
+}
