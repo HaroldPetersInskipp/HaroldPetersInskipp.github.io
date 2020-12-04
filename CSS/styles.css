@@ -12,7 +12,7 @@
 /* Style the 1rd header */
 h1 {
 	color:#111;
-	font-size:48px;
+	font-size:40px;
 	text-align:center;
 	background-color:#403f3f;
 	margin:0;
@@ -152,4 +152,10 @@ p {
 	text-align: center;
 	padding: 7px 16px;
 	text-decoration: none;
+}
+
+. {
+	display: inline-block;
+	font-size: 18px;
+	padding: 20px;
 }
