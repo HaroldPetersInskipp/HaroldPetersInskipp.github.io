@@ -600,22 +600,17 @@
 
     </svg>
     
-        <g fill="#fff" text-anchor="left" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
-            <text x="120" y="23" fill="#010101" fill-opacity=".3" font-weight="bold">Donate now with <tspan text-decoration="underline">Ethereum</tspan> </text>
-            <text x="120" y="23" font-weight="bold">Donate now with <tspan text-decoration="underline">Ethereum</tspan> </text>
+        <g fill="#fff" text-anchor="left" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="14">
+            <text x="120" y="30" fill="#010101" fill-opacity=".3">Donate now with <tspan text-decoration="underline">Ethereum</tspan></text>
+            <text x="120" y="30">Donate now with <tspan text-decoration="underline">Ethereum</tspan></text>
+        </g>
+        <g fill="#fff" text-anchor="left" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="14">
+            <text x="120" y="48" fill="#010101" fill-opacity=".3">to the following address:</text>
+            <text x="120" y="48">to the following address:</text>
         </g>
         <g fill="#fff" text-anchor="left" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
-            <text x="120" y="40" fill="#010101" fill-opacity=".3">0xc84c8663Ca4221C86fF057BF02D0104Da3e953F5</text>
-            <text x="120" y="40">0xc84c8663Ca4221C86fF057BF02D0104Da3e953F5</text>
-        </g>
-
-        <g fill="#fff" text-anchor="left" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
-            <text x="120" y="73" fill="#010101" fill-opacity=".3" font-weight="bold">Current balance:</text>
-            <text x="120" y="73" font-weight="bold">Current balance:</text>
-        </g>
-        <g fill="#fff" text-anchor="left" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
-            <text x="120" y="90" fill="#010101" fill-opacity=".3">0.19752259138164577 ETH</text>
-            <text x="120" y="90">0.19752259138164577 ETH</text>
+            <text x="120" y="80" fill="#010101" fill-opacity=".3">0xc84c8663Ca4221C86fF057BF02D0104Da3e953F5</text>
+            <text x="120" y="80">0xc84c8663Ca4221C86fF057BF02D0104Da3e953F5</text>
         </g>
     
 </svg>
