@@ -9,7 +9,7 @@
 }
 
 aside {
-	font: 17px;
+	font: 19px;
 	display:block;
 }
 
@@ -17,6 +17,7 @@ header, nav, section, article, footer{
 	font: 17px;
 	display:block;
 }
+
 
 h1{
 	font: bold 28px;
@@ -400,7 +401,7 @@ margin-left: 0px; /*front  = 0px behind = 62.5*/
 	margin: 3px 0px 0px 23px;
 	height: 13px;
     animation-name: rainbow;
-	 animation-duration: 0.3s;
+	 animation-duration: 0.5s;
 	 animation-iteration-count: infinite;
 	 animation-timing-function: linear;
 	z-index: 2;
@@ -420,19 +421,19 @@ margin-left: 0px; /*front  = 0px behind = 62.5*/
 }
 
 #firstLevelBar{
-	width: 100px;
+	width: 120px;
 }
 
 #secondLevelBar{
-	width: 80px;
+	width: 110px;
 }
 
 #thirdLevelBar{
-	width: 4px;
+	width: 80px;
 }
 
 #firstLimitBar{
-	width: 25px;
+	width: 180px;
 }
 
 #secondLimitBar{
@@ -545,7 +546,9 @@ margin-left: 0px; /*front  = 0px behind = 62.5*/
 #time li{
 	line-height: 38px;
 	padding: 5px 0px 5px 2px;
+	font: 17px !important;
 }
+
 
 #currentTime{
 	position: absolute;

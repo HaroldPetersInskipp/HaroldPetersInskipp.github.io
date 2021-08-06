@@ -128,14 +128,14 @@ if((e.keyCode == 72 || e.keyCode == 104) && !tokenHide){
 }
 }
 
-//Prepents the hand and shadow icons.
+//Prepends the hand and shadow icons.
 function selection(tokenMenu){
 
 menuItems[tokenMenu].prepend(img); //Prepend append an element before the selected target.
 menuItems[tokenMenu].prepend(div); //Using reference variables instead creating elements helps to no be removed each time.
 }
 
-//Function that calls the loadScreen and loadFile methods and manages the secuence of the screen changes.
+//Function that calls the loadScreen and loadFile methods and manages the sequence of the screen changes.
 function changeScreen(token){
 
 let x = 0;
@@ -163,7 +163,7 @@ document.querySelector("[id="+`${chara}LimitBar`+"]").classList.remove(document.
 //Use the status and amount to determine the new class, if the amount is 180 (maximum) the class will be "Break" else will be determined by status.
 let newClass; 
 
-if (amount == 180){
+if (amount == "180px"){
         newClass = "limitBarBreak";
     }
 else {
