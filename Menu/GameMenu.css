@@ -8,21 +8,23 @@
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+aside {
+	font: 17px;
+}
 
-
-header, nav, section, article, aside, footer{
-	font: 17px arial;
+header, nav, section, article, footer{
+	font: 17px;
 	display:block;
 }
 
 h1{
-	font: bold 28px arial;
+	font: bold 28px;
 	margin-left: 100px;
 	color: black;
 }
 
 h2{
-	font: bold 20px arial;
+	font: bold 20px;
 	margin-left: 100px;
 	color:black;
 }
@@ -86,7 +88,7 @@ body{
 #brand{
 	display:block;
 	position: absolute;
-	font: bold 10px arial;
+	font: bold 10px;
 	margin: 60px 0px 0px 1270px;
 	color: black;
 	animation-name: hanging;
@@ -133,7 +135,7 @@ cursor:pointer;
 	opacity: 0;
 	display: block;
 	position: absolute;
-	font: bold 10px arial;
+	font: bold 10px;
 	margin: 550px 0px 0px 1158px;
 	color: white;
 	animation-name: appearing2;
@@ -209,6 +211,7 @@ margin-left: 0px; /*front  = 0px behind = 62.5*/
 	border-spacing: 0px 0px;
 	line-height: 30px;
 	border-collapse: collapse;
+	color: white;
 }
 
 .levelsTable{
@@ -218,6 +221,7 @@ margin-left: 0px; /*front  = 0px behind = 62.5*/
 	border-spacing: 0px 0px;
 	line-height: 28px;
 	border-collapse: collapse;
+	color: white;
 }
 
 .lv{
@@ -310,7 +314,7 @@ margin-left: 0px; /*front  = 0px behind = 62.5*/
 }
 
 #firstHpBar{
-	width: 145px;
+	width: 8px;
 }
 
 #secondHpBar{
@@ -322,7 +326,7 @@ margin-left: 0px; /*front  = 0px behind = 62.5*/
 }
 
 #firstMpBar{
-	width: 145px;
+	width: 8px;
 }
 
 #secondMpBar{
