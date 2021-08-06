@@ -6,13 +6,13 @@ let tokenHide = false; //Variable to store the bolean vaule if the extra menu is
 let tokenFile = 0; //Variable to store the present file selected.
 const img = document.createElement('img'); //Const to add the hand cursor.
 img.className = 'selected';
-img.src = 'https://www.dropbox.com/s/1pq4d1ksjv3tuoz/FF7Cursor.png?raw=1';
+img.src = 'Images/Cursor.png';
 const div = document.createElement('div'); //Const to add the shadow of the hand cursor.
 div.className = 'shadow';
 let move = new Audio();//Variable of Audio kind to store and use move sound.
-move.src ="https://www.dropbox.com/s/fiyx4q2mdwynraj/FF7CursorMove.mp3?raw=1";
+move.src ="Audio\CursorMove.mp3";
 let load = new Audio(); //Variable of Audio kind to store and use the load sound.
-load.src = 'https://www.dropbox.com/s/v04ewrevpnnsz03/FF7CursorSaveLoad.mp3?raw=1';
+load.src = 'Audio\SaveLoad.mp3';
 
 // SELECTION ELEMENTS
 
