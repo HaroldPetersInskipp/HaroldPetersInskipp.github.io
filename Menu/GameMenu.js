@@ -10,9 +10,9 @@ img.src = 'Images/Cursor.png';
 const div = document.createElement('div'); //Const to add the shadow of the hand cursor.
 div.className = 'shadow';
 let move = new Audio();//Variable of Audio kind to store and use move sound.
-move.src ="Audio\CursorMove.mp3";
+move.src ="https://haroldpetersinskipp.github.io/Menu/Audio/CursorMove.mp3";
 let load = new Audio(); //Variable of Audio kind to store and use the load sound.
-load.src = 'Audio\SaveLoad.mp3';
+load.src = 'https://haroldpetersinskipp.github.io/Menu/Audio/SaveLoad.mp3';
 
 // SELECTION ELEMENTS
 
