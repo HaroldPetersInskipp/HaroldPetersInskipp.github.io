@@ -32,19 +32,8 @@ document.addEventListener('DOMContentLoaded', function(){
     time();
     blink();
 });
-//Sets the opacity of the hands icons to 1 when the initial animation ends we use this instead animation-fill-mode to control the opacity with other function later.
-document.querySelector('#right').addEventListener("animationend", function(){
-    document.querySelector('#right').style.opacity = "1";
-    document.querySelector('#left').style.opacity = "1";
-},false);
-//Sets the opacity of the instructinos to 1 when the initial animation ends we use this instead animation-fill-mode to control the opacity with other function later.
-document.querySelector('#instructions').addEventListener("animationend", function(){
-    document.querySelector('#instructions').style.opacity = "1";
-},false);     
 //Sets listener when a mouse is over a menu.
 document.body.addEventListener('mouseover', selectMouseOver);
-//Sets listener when a key is pressed.
-document.body.addEventListener('keydown', keyPressed);
 //Sets listener when a click is made in the hand icons.
 document.body.addEventListener('click', function(e){
 

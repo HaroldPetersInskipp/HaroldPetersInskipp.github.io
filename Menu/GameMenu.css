@@ -10,6 +10,7 @@
 
 aside {
 	font: 17px;
+	display:block;
 }
 
 header, nav, section, article, footer{
