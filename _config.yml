@@ -1,0 +1,79 @@
+# ================================
+# _config.yml for GitHub Pages
+# Version: 0.1.0
+# ================================
+# This file controls the behavior of your Jekyll site on GitHub Pages.
+# It includes site metadata, build settings, theme selection, and plugins.
+# ================================
+
+# --------------------------------
+# Site Settings
+# --------------------------------
+title: "Portfolio"
+description: "A place for old projects of mine"
+author:
+  name: "Harold Peters Inskipp"
+  email: "haroldpetersinskipp@gmail.com"
+url: "https://HaroldPetersInskipp.github.io"     # Your GitHub Pages URL (no trailing slash)
+baseurl: ""                           # The subpath if published from a project repo
+                                      # Use "" if publishing from a user/org root repo
+
+# --------------------------------
+# Theme & Appearance
+# --------------------------------
+# theme: minima                       # One of the supported GitHub Pages themes
+# remote_theme: pages-themes/cayman@v0.2.0
+# ↑ Alternatively, use a remote theme (enabled via the jekyll-remote-theme plugin)
+
+# Some themes support extra options, like:
+# minima:
+#   social_links:
+#     github: username
+#     twitter: username
+
+# --------------------------------
+# Build Settings
+# --------------------------------
+# markdown: kramdown                 # GitHub Pages enforces kramdown
+# highlighter: rouge                 # Enforced syntax highlighter
+# permalink: /:categories/:year/:month/:day/:title/  # Permalink style for posts
+timezone: America/Denver             # Set your local timezone
+
+# Files/folders to include or exclude
+# include:
+#   - _pages                            # Force include custom folder
+# exclude:
+#  - README.md
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor
+
+# --------------------------------
+# Collections
+# --------------------------------
+# collections:
+#   docs:
+#     output: true                      # Render collection items as HTML
+#     permalink: /:collection/:name     # URL pattern for collection items
+
+# --------------------------------
+# Pagination (requires jekyll-paginate plugin)
+# --------------------------------
+# paginate: 5                           # Number of posts per page
+# paginate_path: "/page:num"            # URL for paginated pages
+
+# --------------------------------
+# Plugins
+# --------------------------------
+# plugins:
+#   - jekyll-feed                       # Generates an Atom feed
+#   - jekyll-sitemap                    # Generates sitemap.xml
+#   - jekyll-seo-tag                    # Adds SEO meta tags
+#   - jekyll-paginate                   # Enables blog pagination
+#   - jekyll-remote-theme               # Lets you use remote themes
+
+# --------------------------------
+# Custom Variables (theme-specific or personal use)
+# --------------------------------
+# google_analytics: UA-XXXXXXXXX-X      # Tracking ID if desired
