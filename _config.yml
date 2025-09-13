@@ -15,7 +15,7 @@ author:
   name: "Harold Peters Inskipp"
   email: "haroldpetersinskipp@gmail.com"
 url: "https://HaroldPetersInskipp.github.io"     # Your GitHub Pages URL (no trailing slash)
-baseurl: "/"                       # The subpath if published from a project repo
+baseurl: ""                       # The subpath if published from a project repo
                                       # Use "" if publishing from a user/org root repo
 
 # --------------------------------
